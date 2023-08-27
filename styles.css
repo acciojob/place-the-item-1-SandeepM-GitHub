@@ -1,2 +1,23 @@
-
-/* Your CSS Code here. */
+.holder{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+	font-size: 30px;
+}
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+	font-size: 30px;
+}
+.box-3, .box-4, .box-5, .box-6, .box-7{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+	font-size: 30px;
+}
